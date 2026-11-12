@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terry Narvaez | Portafolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+.gradient-text {
+    background: linear-gradient(to right, #3B82F6, #60A5FA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+        
+    </style>
+
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- NAVBAR -->
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-gray-100/90 backdrop-blur-md border-b border-gray-300">
+
+        <nav class="flex justify-between items-center max-w-7xl mx-auto px-8 py-5">
+
+            <h1 class="text-2xl font-bold">
+                Terry<span class="text-blue-500">.</span>
+            </h1>
+
+            <ul class="hidden md:flex items-center gap-10 text-sm font-medium">
+
+                <li>
+                    <a href="#inicio" class="hover:text-blue-500 transition-colors">
+                        Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sobre-mi" class="hover:text-blue-500 transition-colors">
+                        Sobre mí
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="hover:text-blue-500 transition-colors">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#proyectos" class="hover:text-blue-500 transition-colors">
+                        Proyectos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contacto" class="hover:text-blue-500 transition-colors">
+                        Contacto
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="#contacto"
+                class="bg-gray-900 text-white px-5 py-2 rounded-full text-sm hover:bg-blue-600 transition-colors">
+                Hablemos
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section id="inicio" class="min-h-screen flex items-center pt-24">
+
+        <div class="max-w-7xl mx-auto px-8 w-full">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+
+                <!-- PRESENTACION -->
+
+                <div class="md:col-span-1">
+
+                    <p class="text-sm tracking-widest font-semibold text-gray-600 mb-5">
+                        WELCOME TO MY PORTFOLIO
+                    </p>
+
+                    <h2 class="text-5xl md:text-6xl font-bold leading-tight text-white">
+                        Hello, my name's
+                        <span class="gradient-text">Terry.</span>
+                    </h2>
+
+                    <p class="text-gray-700 mt-5 leading-relaxed">
+                        Soy desarrollador web apasionado por la tecnología,
+                        el diseño y la creación de experiencias digitales.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 mt-8">
+
+                        <a href="#contacto"
+                            class="bg-gray-900 text-white px-7 py-3 rounded-full hover:bg-blue-600 transition-all">
+                            Contactarme
+                        </a>
+
+                        <a href="#proyectos"
+                            class="border border-gray-800 px-7 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-all">
+                            Ver proyectos
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARJETA CENTRAL -->
+
+                <div class="flex justify-center">
+
+                    <div class="w-full max-w-xs p-7 rounded-3xl bg-white/40 backdrop-blur-md border border-white shadow-xl hover:-translate-y-2 transition-all duration-300">
+
+                        <div class="flex items-center gap-2 mb-8">
+
+                            <span class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
+
+                            <p class="text-xs font-semibold tracking-widest">
+                                AVAILABLE FOR WORK
+                            </p>
+
+                        </div>
+
+                        <p class="text-sm text-gray-500 mb-3">
+                            MY PERSONAL MOTTO
+                        </p>
+
+                        <h3 class="text-3xl font-bold leading-tight mb-5">
+                            Turning ideas into reality.
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Construyendo experiencias digitales
+                            modernas, funcionales y creativas.
+                        </p>
+
+                        <div class="border-t border-gray-300 mt-8 pt-5 flex justify-between items-center">
+
+                            <span class="text-xs font-semibold tracking-widest">
+                                TERRY NARVAEZ
+                            </span>
+
+                            <span class="text-2xl text-blue-500">
+                                →
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO -->
+
+                <div class="flex justify-center">
+
+                    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl">
+
+                        <img src="../WhatsApp Image 2026-11-12 at 10.59.30 AM.jpeg"
+                            alt="Fotografía de Terry"
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SOBRE MI -->
+
+    <section id="sobre-mi" class="py-24 bg-white">
+
+        <div class="max-w-6xl mx-auto px-8">
+
+            <div class="text-center mb-16">
+
+                <p class="text-blue-500 font-semibold tracking-widest text-sm">
+                    CONOCE MÁS SOBRE MÍ
+                </p>
+
+                <h2 class="text-4xl font-bold mt-3">
+                    Sobre mí
+                </h2>
+
+            </div>
+
+            <div class="max-w-3xl mx-auto text-center">
+
+                <p class="text-gray-600 leading-loose text-lg">
+
+                    ¡Hola! Soy Terry Narvaez, desarrollador web
+                    interesado en crear sitios web modernos,
+                    atractivos y funcionales.
+
+                    Me gusta aprender nuevas tecnologías,
+                    resolver problemas y transformar ideas
+                    en proyectos digitales.
+
+                    Mi objetivo es seguir creciendo como
+                    desarrollador y mejorar constantemente
+                    mis habilidades.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="py-24 bg-gray-100">
+
+        <div class="max-w-6xl mx-auto px-8">
+
+            <div class="text-center mb-16">
+
+                <p class="text-blue-500 font-semibold tracking-widest text-sm">
+                    MIS CONOCIMIENTOS
+                </p>
+
+                <h2 class="text-4xl font-bold mt-3">
+                    Mis Skills
+                </h2>
+
+                <p class="text-gray-500 mt-4">
+                    Tecnologías con las que trabajo.
+                </p>
+
+            </div>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+
+
+                <!-- HTML -->
+
+                <div class="bg-white p-8 rounded-2xl text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all">
+
+                    <h3 class="text-4xl font-bold text-orange-500 mb-4">
+                        5
+                    </h3>
+
+                    <h4 class="font-bold text-lg">HTML</h4>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Estructura web
+                    </p>
+
+                </div>
+
+
+                <!-- CSS -->
+
+                <div class="bg-white p-8 rounded-2xl text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all">
+
+                    <h3 class="text-4xl font-bold text-blue-500 mb-4">
+                        3
+                    </h3>
+
+                    <h4 class="font-bold text-lg">CSS</h4>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Diseño y estilos
+                    </p>
+
+                </div>
+
+
+                <!-- BOOTSTRAP -->
+
+                <div class="bg-white p-8 rounded-2xl text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all">
+
+                    <h3 class="text-4xl font-bold text-purple-600 mb-4">
+                        B
+                    </h3>
+
+                    <h4 class="font-bold text-lg">Bootstrap</h4>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Framework CSS
+                    </p>
+
+                </div>
+
+
+                <!-- TAILWIND -->
+
+                <div class="bg-white p-8 rounded-2xl text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all">
+
+                    <h3 class="text-4xl font-bold text-cyan-500 mb-4">
+                        T
+                    </h3>
+
+                    <h4 class="font-bold text-lg">Tailwind</h4>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Utility CSS
+                    </p>
+
+                </div>
+
+
+                <!-- JAVASCRIPT -->
+
+                <div class="bg-white p-8 rounded-2xl text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all">
+
+                    <h3 class="text-4xl font-bold text-yellow-500 mb-4">
+                        JS
+                    </h3>
+
+                    <h4 class="font-bold text-lg">JavaScript</h4>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Interactividad
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROYECTOS -->
+
+    <section id="proyectos" class="py-24 bg-white">
+
+        <div class="max-w-6xl mx-auto px-8">
+
+            <div class="text-center mb-16">
+
+                <p class="text-blue-500 font-semibold tracking-widest text-sm">
+                    MI TRABAJO
+                </p>
+
+                <h2 class="text-4xl font-bold mt-3">
+                    Mis proyectos
+                </h2>
+
+                <p class="text-gray-500 mt-4">
+                    Algunos de los proyectos en los que he trabajado.
+                </p>
+
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+                <!-- PROYECTO 1 -->
+
+                <div class="bg-gray-100 rounded-2xl overflow-hidden group">
+
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+
+                        <span class="text-5xl font-bold text-gray-500">
+                            <img src="../rueda_libre.png" alt="">
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+                        <a href=""></a>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-blue-500 transition-colors">
+                            Proyecto Web
+                        </h3>
+                        </a>
+
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Desarrollo de una página web moderna
+                            utilizando HTML y CSS.
+                        </p>
+
+                        <div class="flex gap-2 mt-5 flex-wrap">
+
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs">
+                                HTML
+                            </span>
+
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs">
+                                CSS
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+    
+                <div class="bg-gray-100 rounded-2xl overflow-hidden group">
+
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+
+                        <span class="text-5xl font-bold text-gray-500">
+                            <img src="../riwiimg.png" alt="">
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <a href="https://moodle.riwi.io/">
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-blue-500 transition-colors">
+                            Landing Page
+                        </h3>
+                    </a>
+
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Diseño de una landing page adaptable
+                            a dispositivos móviles.
+                        </p>
+
+                        <div class="flex gap-2 mt-5 flex-wrap">
+
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs">
+                                Bootstrap
+                            </span>
+
+                            <span class="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-xs">
+                                Tailwind
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="bg-gray-100 rounded-2xl overflow-hidden group">
+
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+
+                        <span class="text-5xl font-bold text-gray-500">
+                            <img src="../temu.jpeg" alt="">
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESVAHEIkXXKPjVU8k8fHAWwkfVkqWYQjcFtwBSVsT3GZvB66-XUarj-nAHb_kkwib3pVMps-QlLP1keWV59X-AbdLVUxKWf2cckn8u-3EVz01A86Plkg&ved=2ahUKEwik5L-S6YKYAxV1xskDHcsbLEQQFnoECBAQAQ&uoh=2&usg=AOvVaw0q3IXZJETPYPYK3Dyh97Eb">
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-blue-500 transition-colors">
+                            Aplicación Web
+                        </h3>
+    </a>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Proyecto interactivo desarrollado
+                            con JavaScript.
+                        </p>
+
+                        <div class="flex gap-2 mt-5 flex-wrap">
+
+                            <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs">
+                                JavaScript
+                            </span>
+
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs">
+                                CSS
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="py-24 bg-gray-900 text-white">
+
+        <div class="max-w-4xl mx-auto px-8 text-center">
+
+            <p class="text-blue-400 font-semibold tracking-widest text-sm">
+                CONTACTO
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-5">
+                ¿Tienes un proyecto en mente?
+            </h2>
+
+            <p class="text-gray-400 mt-6 leading-relaxed">
+                Estoy interesado en conocer nuevas oportunidades,
+                colaborar y desarrollar proyectos increíbles.
+            </p>
+
+            <a href="mailto:tuemail@ejemplo.com"
+                class="inline-block mt-10 bg-blue-500 px-8 py-4 rounded-full font-semibold hover:bg-blue-600 transition-colors">
+
+                Hablemos →
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-black text-gray-400 py-8">
+
+        <div class="max-w-6xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+
+            <p class="text-sm">
+                © 2026 Terry Narvaez. Todos los derechos reservados.
+            </p>
+
+            <p class="text-sm">
+                Designed & Developed by
+                <span class="text-blue-400 font-semibold">
+                    Terry.
+                </span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
